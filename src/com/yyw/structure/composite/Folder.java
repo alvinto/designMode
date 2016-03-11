@@ -20,7 +20,7 @@ public class Folder implements IFile{
     /**增加一个文件夹或文件**/
     public void add(IFile iFile){
         componentVector.addElement(iFile);
-        iFile.setDeep(++deep);
+        iFile.setDeep(deep+1);
     }
     /**删除一个文件夹或文件**/
     public void remove(IFile iFile){
