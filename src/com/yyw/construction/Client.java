@@ -5,6 +5,7 @@ package com.yyw.construction;
  */
 public class Client {
     public static void main(String[] args){
+        /**单利模式测试**/
         Singleton.INSTANCE.doSomeThing();
         System.out.print(Singleton.INSTANCE.getName());
     }
